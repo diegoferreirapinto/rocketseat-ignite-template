@@ -30,7 +30,7 @@ section.task-list {
         border: 0;
         color: var(--text);
         padding: 0.75rem 1.5rem;
-        border-radius: 0.5rem;
+        border-radius: 0.2rem;
         
         &::placeholder {
           color: var(--text-light)
@@ -41,17 +41,17 @@ section.task-list {
         font-weight: 600;
         border-radius: 8px;
         border: 0;
-        background: var(--green);
+        background: var(--black);
         color: #fff;
         display: flex;
         flex-direction: row;
         align-items: center;
 
-        padding: 14px;
-        transition: filter 0.2s;
+        padding: 1rem;
+        transition: filter 0.15s;
 
         &:hover {
-          filter: brightness(0.95);
+          filter: brightness(0.3);
         }
       }
     }
@@ -69,6 +69,12 @@ section.task-list {
         align-items: center;
         border-bottom: 1px solid #EBEBEB;
         padding: 1rem 0;
+
+        transition: background-color 0.3s;
+
+        &:hover{
+          background-color : #EBEBEB;
+        }
 
         div {
           display: flex;
@@ -100,10 +106,10 @@ section.task-list {
               cursor: pointer;
               height: 0;
               width: 0;
-
+              
               &:checked {
                 & ~ .checkmark {
-                  background-color: var(--blue);
+                  background-color: var(--black);
                 }
 
                 & ~ .checkmark:after {
@@ -120,6 +126,7 @@ section.task-list {
               height: 1rem;
               background-color: var(--background);
               border-radius: 2px;
+              border: 1px solid;
           
               &:after {
                 content: "";
