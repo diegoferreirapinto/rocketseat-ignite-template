@@ -69,7 +69,6 @@ section.task-list {
         align-items: center;
         border-bottom: 1px solid #EBEBEB;
         padding: 1rem 0;
-
         transition: background-color 0.3s;
 
         &:hover{
@@ -81,7 +80,6 @@ section.task-list {
           align-items: center;
           gap: 14px;
           outline: 0;
-
           p {
             font-size: 1rem;
             color: var(--text);
