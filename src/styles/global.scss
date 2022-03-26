@@ -1,5 +1,6 @@
 :root {
   --blue: #273FAD;
+  --black:#000;
   --green: #3FAD27;
   --red: 	#ad273f;
   --background: #EBEBEB;
@@ -16,7 +17,7 @@
 }
 
 body {
-  font: 16px "Poppins", Arial, sans-serif;
+  font: 1rem "Poppins", Arial, sans-serif;
   color: #121214;
 }
 
@@ -25,9 +26,12 @@ input, textarea {
 }
 
 .container {
-  max-width: 1120px;
-  margin: 0 auto;
-  padding: 2.5rem 1rem;
+  
+  margin-top: 0;
+  margin-left: 1rem;
+  margin-right: 1rem;
+  padding: 0;
+  
 }
 
 button, .checkmark {
